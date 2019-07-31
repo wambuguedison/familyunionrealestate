@@ -1,0 +1,12 @@
+.accordion .card .card-header button:hover,
+.accordion .card .card-header button:focus,
+.accordion .card .card-header button:active,
+.accordion .card .card-body a:hover,
+.accordion .card .card-body a:focus,
+.accordion .card .card-body a:active {
+    text-decoration: none;
+}
+
+.accordion .card .card-header i {
+    float: right;
+}

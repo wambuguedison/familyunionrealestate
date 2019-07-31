@@ -1,0 +1,27 @@
+.about {
+    background:#90C445;
+}
+.ensure {
+    color: blue;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .about {
+    background:#FFF;
+    }
+    .who_we_are {
+        background: #922791;
+        padding: 20px;
+    }
+    .who_we_are p {
+        color: #FFF;
+    }
+    .mission {
+        background: #F7941D;
+        padding: 20px;
+    }
+    .vision {
+        background: #90C445;
+        padding: 20px;
+    }
+}

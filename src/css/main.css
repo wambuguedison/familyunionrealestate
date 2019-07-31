@@ -1,0 +1,231 @@
+.img_top {
+    float: right;
+    padding-right: 40px;
+}
+.line {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background: #922791;
+}
+#slideshow,
+#slideshowtwo {
+    padding-top: 10px;
+}
+.plots {
+    position: relative;
+}
+.sale{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px 0px 5px 0px;
+    background-color: blue;
+    color: white;
+}
+.owl-item .card {
+    width: 18rem;
+}
+.jumb1 {
+    padding-top: 15px;
+}
+.new {
+    text-align: center;
+}
+.owl-carousel .owl-stage .owl-item {
+    padding: 20px;
+}
+.owl-carousel .owl-stage .owl-item .card .card-img-top {
+    padding: 10px;
+}
+.prop {
+    background-color: #F7941D;
+}
+.prop .container .row .col-md-3 {
+    padding-top: 20px;
+}
+.footer {
+    height: 105px;
+    background: #90C445;
+    text-align: center;
+}
+.footer .row {
+    padding-top: 45px;
+}
+.footer a {
+    color: white;
+}
+.footer .col-md-6 a {
+    color: blue;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: none;
+}
+.fa-pencil-alt {
+    color: brown;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.float {
+    display: none;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    z-index: 99;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+.social {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40%;
+    z-index: 99;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    bottom: 40px;
+    right: 40%;
+    z-index: 99;
+
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.fab {
+    font-size: 50px;
+}
+.fa-facebook-messenger{
+    color: #0084ff;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-twitter-square{
+    color: #1da1f2;
+}
+.fa-instagram{
+    color: #c13584;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
+}
+
+/* Any gallery on the site*/
+.gal .col-md-3 {
+    padding-bottom: 20px;
+}
+
+/* any form on the site*/
+#error_message,
+#success_message {
+    display: none;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .img_top {
+        float: left;
+        width: 300px;
+        padding-right: 30%;
+    }
+    .line {
+        display: none;
+    }
+    .navbar-brand {
+        font-size: 12px;
+    }
+    .navbar-toggler {
+        padding: 5px;
+        margin: 0;
+    }
+    .sale{
+        position: absolute;
+        top: 23px;
+        left: 23px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0px 0px 5px 0px;
+        background-color: blue;
+        color: white;
+    }
+    .footer {
+        height: 180px;
+    }
+    .owl-item .card {
+        width: 16rem;
+    }
+    #myBtn {
+        bottom: 20px;
+        right: 10px;
+        z-index: 99;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        left: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px #999;
+    }
+    .my-float {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .social {
+        bottom: 20px;
+        right: 25%;
+        z-index: 99;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .fab {
+        font-size: 30px;
+    }
+
+    .gal {
+        text-align: center;
+    }
+}

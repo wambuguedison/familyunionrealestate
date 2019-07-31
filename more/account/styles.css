@@ -1,0 +1,21 @@
+.touch i {
+    font-size: 25px;
+}
+.touch .fa-phone {
+    color: black;
+}
+.touch .fa-envelope {
+    color: skyblue;
+}
+.touch .fa-map-marker-alt {
+    color: red;
+}
+.touch a {
+    color: green;
+}
+.touch a:hover, 
+.touch a:active,
+.touch a:focus{
+    color: green;
+    text-decoration: none;
+}
